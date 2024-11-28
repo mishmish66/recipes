@@ -2,6 +2,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{multicol}
+\usepackage{float}
 
 \title{Earl Grey Chocolate Pie}
 \author{}
@@ -36,9 +37,11 @@
 
     \columnbreak
 
-    \includegraphics[width=\linewidth]{assets/earl_gray_pie.jpg}
-    \centering
-    \textit{The Earl Grey Pie}
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{assets/earl_gray_pie.jpg}
+        \centering
+        \caption{An \textit{Earl Gray Pie} made with this recipe}
+    \end{figure}
 \end{multicols}
 
 \newpage
